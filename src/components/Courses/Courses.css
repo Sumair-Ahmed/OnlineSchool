@@ -1,0 +1,131 @@
+.courses{
+    margin: 0px 30px;
+    margin-top: 80px;
+    
+}
+
+.cc-desc{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.cc-desc button {
+    border: none;
+    outline: none;
+    padding: 14px 25px;
+    background-color: white;
+    border-radius: 6px;
+    font-size: 0.9em;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.cc-desc p{
+    color: rgb(128, 128, 128);
+    width: 60%;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+.courses h1{
+    font-size: 38px;
+}
+
+.courses-cards{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    gap: 20px;
+}
+
+.course-card{
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 610px;
+}
+
+.course-card img{
+    width: 100%;
+}
+
+.specs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+
+.spec-left{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+}
+
+.weeks{
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: 1px solid rgba(128, 128, 128, 0.226);
+}
+
+.diff{
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: 1px solid rgba(128, 128, 128, 0.226);
+}
+
+.specs h3{
+    font-size: 16px;
+}
+
+.course-card h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.course-card p{
+    line-height: 1.5;
+    color: grey;
+}
+
+.course-card button{
+    border: none;
+    outline: none;
+    padding: 14px 25px;
+    background-color: #F7F7F8;
+    border-radius: 6px;
+    font-size: 0.9em;
+    font-weight: 100;
+    width: 100%;
+
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
+@media (max-width: 480px) {
+    .courses{
+        margin: 0px;
+        margin-top: 80px;
+    }
+    .cc-desc{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: start;
+        align-items: start;
+        margin-bottom: 30px;
+        margin-left: 10px;
+    }
+    .courses h1{
+        margin-left: 20px;
+    }
+    .cc-desc p{ 
+        width: 95%;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+  }

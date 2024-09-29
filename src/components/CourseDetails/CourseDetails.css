@@ -1,0 +1,93 @@
+.course-details{
+    margin: 0px 30px;
+}
+
+.course-details img{
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.course-details-curr-det{
+ 
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    gap: 20px;
+}
+
+.course-details-curr-box{
+    background-color: white;
+    width: 49%;   
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.course-details-curr-box h1{
+    font-size: 60px;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.course-details-curr-box h2{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.lessons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.lesson{
+    border: 1px solid #F1F1F3;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.duration{
+    background-color: #F7F7F8;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+.lesson-length{
+    margin-top: 5px;
+    font-size: 14px;
+    color: #59595A;
+}
+
+.lesson-duration{
+    font-size: 14px;
+    color: #59595A;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+#watching{
+    border: 1px solid #FFD599;
+    box-shadow: 0px 0px 4px 1px #FFD599;
+}
+
+#Hourwatching{
+    background-color: #FFEACC;
+}
+
+@media (max-width: 480px) {
+    .course-details-curr-box{
+    width: 100%;
+    }
+    .course-details{
+        margin: 0px 0px;
+    }
+    .duration{
+        margin-top: 20px;
+    }
+}

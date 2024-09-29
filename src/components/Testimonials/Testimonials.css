@@ -1,0 +1,102 @@
+.testimonials{
+    margin: 0px 30px;
+    margin-top: 80px;
+}
+
+.test-desc{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.test-desc button {
+    border: none;
+    outline: none;
+    padding: 14px 25px;
+    background-color: white;
+    border-radius: 6px;
+    font-size: 0.9em;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.test-desc p{
+    color: rgb(128, 128, 128);
+    width: 60%;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+.test-cards{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.test-card{
+    background-color: white;
+    max-width: 610px;
+    border-radius: 10px;
+}
+
+.test-text {
+    padding: 40px 30px;
+    color: rgb(94, 93, 93);
+    line-height: 1.5;
+}
+
+.full-story{
+    border-top: 1px solid rgba(128, 128, 128, 0.075);
+    background-color: #FCFCFD;
+    display: flex;
+    flex: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.read-more button{
+    border: none;
+    outline: none;
+    padding: 14px 25px;
+    background-color: #F7F7F8;
+    border-radius: 6px;
+    font-size: 0.9em;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+
+@media (max-width: 480px) {
+    .testimonials{
+        margin: 0px;
+        margin-top: 80px;
+    }
+    .test-desc{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: start;
+        align-items: start;
+        margin-bottom: 30px;
+        margin-left: 10px;
+    }
+    .testimonials h1{
+        margin-left: 20px;
+    }
+    .test-desc p{ 
+        width: 95%;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+  }
+  

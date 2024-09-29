@@ -1,0 +1,143 @@
+.coursecard{
+    margin: 0px 40px;    
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    
+    display: flex;
+    flex-flow: column;
+    margin-top: 20px;
+}
+
+.card-desc{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.card-desc button {
+    border: none;
+    outline: none;
+    padding: 14px 25px;
+    background-color: #FCFCFD;
+    border-radius: 6px;
+    font-size: 0.9em;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.card-desc p{
+    color: rgb(128, 128, 128);
+    width: 88%;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+.coursecard h1{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.card-images{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.card-images img{
+    max-width: 365px;
+    border-radius: 5px;
+}
+
+.curr{
+    margin-top: 30px;
+    border-radius: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.356);
+}
+
+.curr h2{
+    font-size: 18px;
+    font-weight: 500;
+    margin: 20px;
+}
+
+.curr hr{
+    height: 1px;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.356);
+}
+
+.curr-det{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 20px;
+}
+
+.curr-box{
+    margin: 20px;
+    width: 180px;
+    min-height: 100px;
+    border-right: 1px solid rgba(128, 128, 128, 0.356);
+}
+
+.curr-box:last-child{
+    border: none;
+}
+
+.curr-box h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.curr-box p {
+    width: 80%;
+}
+
+@media (max-width: 480px) {
+    .coursecard{
+        margin: 0;
+        margin-top: 20px;
+        padding: 20px;
+    }
+    .card-images img{
+        max-width: 90px;
+    }
+    .card-images{
+        gap: 10px;
+    }
+    .curr-box{
+        margin: 10px;
+        width: 100%;
+        min-height: 80px;
+        border-right: none;
+        border-bottom: 1px solid  rgba(128, 128, 128, 0.356);
+    }
+    .curr-det{
+        margin-top: 10px;
+    }
+    .curr-box p {
+        width: 100%;
+        font-size: 14px;
+    }   
+    .coursecard h1{
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .curr-box h1{
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+    .card-desc{
+        display: flex;
+        flex-flow: column;
+        gap: 20px;
+        justify-content: start;
+        align-items: start;
+    }
+}

@@ -1,0 +1,190 @@
+.pricing{
+    margin: 0px 30px;
+    margin-top: 80px;
+}
+
+.pricing-desc{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+
+.days {
+    display: flex;
+    align-items: start;
+    background-color: white;
+    gap: 5px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.days .monthly-btn {
+    border: none;
+    outline: none;
+    padding: 14px 25px;
+    background-color: #FF9500;
+    color: white;
+    border-radius: 6px;
+    font-size: 0.9em;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.days .yearly-btn {
+    border: none;
+    outline: none;
+    padding: 14px 25px;
+    background-color: white;
+    border-radius: 6px;
+    font-size: 0.9em;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.pricing-desc p{
+    color: rgb(128, 128, 128);
+    width: 60%;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+.packages {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 60px;
+}
+
+.package{
+    border-radius: 10px;
+    width: 50%;
+    margin: 30px;
+    background-color: #FCFCFD;
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #F1F1F3;
+    padding-bottom: 20px;
+}
+
+.monthly{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.monthly p {
+    color: grey;
+    margin-bottom: 20px;
+}
+
+.plan{
+    background-color: #FFF9F0;
+    padding: 10px;
+    text-align: center;
+    margin: 30px 0px;
+    border-radius: 4px;
+    width: 90%;
+    border: 1px solid #FFEACC;
+}
+
+.plan h3{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.packages span{
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.features{
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    border: 1px solid #F1F1F3;
+}
+.bullet-point{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFF4E5;
+    padding: 2px;
+    border-radius: 4px;
+}
+
+.feature{
+    display: flex;
+    align-items: center;
+    gap: 0px 10px;
+    border: 1px solid rgba(128, 128, 128, 0.233);
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.features h2{
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    
+}
+
+.feature p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.get-start-btn{
+    border: none;
+    outline: none;
+    padding: 14px 25px;
+    background-color: #FF9500;
+    color: white;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    font-size: 0.9em;
+    font-weight: 100;
+    cursor: pointer;
+    width: 100%;
+}
+
+
+@media (max-width: 480px) {
+    .packages {
+      display: flex;
+      flex-direction: column;
+      gap: 0px;
+    }
+    .package{
+        width: 90%;
+        margin: 10px;
+    }
+    .pricing{
+        margin: 0px;
+        margin-top: 80px;
+    }
+    .pricing-desc{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .pricing h1{
+        margin-left: 20px;
+    }
+    .pricing-desc p{
+        width: 90%;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+  }

@@ -1,0 +1,122 @@
+.faqs{
+    margin: 0px 30px;
+    margin-top: 80px;
+    background-color: white;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: start;
+    gap: 20px;
+    padding-bottom: 40px;
+}
+
+.faq-left{
+    margin: 70px 0px 0px 70px;
+    width: 35%;
+}
+
+.faq-left h1{
+    margin-bottom: 5px;
+}
+
+.all-faqs-btn{
+    border: none;
+    outline: none;
+    padding: 14px 20px;
+    background-color: white;
+    border-radius: 6px;
+    font-size: 0.9em;
+    font-weight: 100;
+    cursor: pointer;
+    border: 1px solid rgba(128, 128, 128, 0.144);
+    margin-top: 40px;
+}
+
+.faq-right{
+    margin: 80px 0px 0px 70px;
+    border-radius: 5px;
+}
+
+.question{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.faq{
+    border: 1px solid rebeccapurple;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 20px 40px;
+    max-width: 570px;
+}
+
+.question h3{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.question button{
+    border: none;
+    outline: none;
+    padding: 10px 12px;
+    background-color: #FFF4E5;
+    border-radius: 6px;
+    font-size: 0.9em;
+    font-weight: 100;
+    cursor: pointer;
+    border: 1px solid rgba(128, 128, 128, 0.144);
+}
+
+.answer{
+    margin-top: 20px;
+}
+
+.answer hr{
+    height: 1px;
+    background-color: #cccccc6e;
+    border: none;
+}
+
+.answer-text{
+    color: #4C4C4D;
+    margin-top: 40px;
+}
+
+.enroll{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    background-color: #F7F7F8;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.enroll button{
+    border: none;
+    outline: none;
+    padding: 10px 12px;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 1px solid rgba(128, 128, 128, 0.144);
+}
+
+@media (max-width: 480px) {
+    .faqs{
+       margin: 0px;
+       margin-top: 80px;
+
+    }
+    .faq{
+        margin: 20px;
+        padding: 20px 20px;
+     }
+     .faq-right{
+        margin: 0;
+     }
+     .faq-left{
+        margin: 30px 0px 0px 30px;
+    }
+}

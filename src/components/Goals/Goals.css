@@ -1,0 +1,111 @@
+.goals {
+    margin: 0px 30px;
+    margin-top: 80px;
+}
+
+.goals h1{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.goal-p{
+    color: #59595A;
+    margin-bottom: 50px;
+}
+
+.goal-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(49%, 1fr));
+    gap: 20px;
+}
+
+.goal {
+    background-color: white;
+    border-radius: 10px;
+    min-height: 150px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.goal img{
+    width: 50px;
+}
+
+
+.goal h3{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.goal p{
+    color: #59595A;
+}
+
+.goal-footer{
+    margin-top: 80px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 200px;
+}
+
+.goal-left h1{
+    font-size: 38px;
+    width: 70%;
+}
+
+.goal-span{
+    font-size: 38px;
+    color: #FF9500;
+}
+
+.goal-left p{
+    color: #4C4C4D;
+    margin-top: 10px;
+}
+
+.goal-right button{
+    border: none;
+    outline: none;
+    background-color: #FF9500;
+    border-radius: 4px;
+    padding: 15px 20px;
+    color: white;
+
+    cursor: pointer;
+}
+
+@media (max-width: 480px) {
+    .goals {
+        margin: 0px;
+        margin-top: 80px;
+        padding: 5px;
+    }
+    .goal {
+        padding: 40px;
+    }
+    .goal img{
+        width: 70px;
+        margin-bottom: 20px;
+    }
+    .goal-footer{
+        flex-direction: column;
+        margin: 0;
+        padding: 20px;
+        margin-top: 80px;
+        align-items: start;
+    }
+    .goal-left h1{
+        font-size: 28px;
+        width: 100%;
+    }
+    .goal-right{
+        margin-top: 50px;
+    }
+}

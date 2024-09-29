@@ -1,0 +1,181 @@
+.contact-form{
+    margin: 0px 30px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    display: grid;
+    grid-template-columns: 70% 1% 29%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+.cf-left{
+    padding: 50px;
+
+}
+
+.cf-form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-form hr{
+    height: 100%;
+    width: 2px;
+    background-color: #F1F1F3;
+    border: none;
+}
+
+.cf-form input{
+    border: none;
+    outline: none;
+    padding: 15px;
+    background-color: #FCFCFD;
+    border: 1px solid #F1F1F3;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.cf-form textarea {
+    border: none;
+    outline: none;
+    padding: 15px;
+    background-color: #FCFCFD;
+    border: 1px solid #F1F1F3;
+    border-radius: 6px;
+    font-size: 16px;
+    resize: none;
+}
+
+.input1{
+    display: flex;
+    gap: 20px;
+}
+
+.input1-1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 10px;
+}
+.input1-2{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 10px;
+}
+
+.input2{
+    display: flex;
+    gap: 20px;
+}
+
+.input2-1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 10px;
+}
+
+.input2-2{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 10px;
+}
+
+.cf-form button{
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    padding: 15px;
+    background-color: #FF9500;
+    color: white;
+    width: 20%;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.send-msg-btn{
+    text-align: center;
+}
+
+.cf-right{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.support-div{
+    background-color: #FCFCFD;
+    border-radius:  5px;
+    padding: 30px;
+    min-width: 260px;
+    max-width: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border:  1px solid #F1F1F3;
+}
+
+.cf-icon{
+    padding: 15px;
+    border:  1px solid #F1F1F3;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F7F7F8;
+}
+
+.support-div p {
+    font-weight: 300;
+}
+
+@media (max-width: 480px) {
+   .contact-form{
+    margin: 0px 10px;
+    margin-top: 80px;
+   } 
+    .contact-form{
+        display: flex;
+        flex-direction: column;
+    }
+    .cf-form button{
+        width: 90%;
+    }
+    .cf-left{
+        padding: 20px;
+    }
+    .cf-form label{
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .cf-form input{
+        font-size: 14px;
+    }
+    .input1{
+        flex-direction: column;
+    }
+    .input2{
+        flex-direction: column;
+    }
+    .input1-1{width: 100%;}
+    .input1-2{width: 100%;}
+    .input2-1{width: 100%;}
+    .input2-2{width: 100%;}
+    .contact-form hr{
+        height: 1px;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .cf-right p{
+        font-size: 14px;
+    }
+  }

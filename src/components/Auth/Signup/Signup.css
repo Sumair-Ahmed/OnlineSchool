@@ -1,0 +1,43 @@
+.signup{
+    margin: 0px 30px;
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+.remember span a{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.remember{
+    margin: 10px 0;
+}
+@media (max-width: 480px) {
+    .signup{
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 0px;
+        margin-top: 80px;
+    }
+    .login-container{
+        padding: 20px;
+    }
+    .login-container h2{
+        font-size: 28px;
+    }
+    .login-container p{
+        font-size: 14px;
+    }
+    .login-container label{
+        font-size: 14px;
+        color: #262626;
+    }
+    .login input{
+        font-size: 14px;
+    }
+    .remember span{
+        font-size: 14px;
+        color: #4C4C4D;
+    }
+  }

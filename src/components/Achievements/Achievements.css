@@ -1,0 +1,58 @@
+.achievements {
+    margin: 0px 30px;
+}
+
+.achievements h1{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.achi-p{
+    color: #59595A;
+    margin-bottom: 50px;
+}
+
+.achi {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(49%, 1fr));
+    gap: 20px;
+}
+
+.achievement {
+    background-color: white;
+    border-radius: 10px;
+    min-height: 150px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.achievement img{
+    width: 50px;
+}
+
+
+.achievement h3{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.achievement p{
+    color: #59595A;
+}
+
+@media (max-width: 480px) {
+    .achievements {
+        margin: 0px;
+        padding: 5px;
+    }
+    .achievement {
+        padding: 40px;
+    }
+    .achievement img{
+        width: 70px;
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,149 @@
+.login{
+    margin: 0px 30px;
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+
+.login-container{
+    background-color: white;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.login-container h2{
+    text-align: center;
+    font-size: 38px;
+    font-weight: 500;
+}
+
+.welcome-text{
+    text-align: center;
+    color: #4C4C4D;
+    margin-top: 10px;
+}
+
+.signup-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.signup-text span{
+    text-decoration: underline;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 40px;
+}
+
+.login-form input{
+    border: none;
+    outline: none;
+    padding: 15px;
+    background-color: #FCFCFD;
+    border: 1px solid #F1F1F3;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.forgot-label{
+    text-align: right;
+    cursor: pointer;
+}
+
+.remember{
+    display: flex;
+    gap: 6px;
+}
+
+.remember span {
+    color: #4C4C4D;
+}
+.login-form button{
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    padding: 10px;
+    background-color: #FF9500;
+    color: white;
+
+    cursor: pointer;
+}
+
+.or hr{
+    flex: 1;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+
+.or span{
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+.or{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.google-btn{
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    padding: 10px;
+    background-color: #F7F7F8;
+    border: 1px solid #F1F1F3;
+
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    width: 100%;
+}
+
+
+.google-icon{
+    width: 25px;
+    height: 25px;
+}
+
+@media (max-width: 480px) {
+    .login{
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 0px;
+        margin-top: 80px;
+    }
+    .login-container{
+        padding: 20px;
+    }
+    .login-container h2{
+        font-size: 28px;
+    }
+    .login-container p{
+        font-size: 14px;
+    }
+    .login-container label{
+        font-size: 14px;
+        color: #262626;
+    }
+    .login input{
+        font-size: 14px;
+    }
+    .remember span{
+        font-size: 14px;
+        color: #4C4C4D;
+    }
+  }
